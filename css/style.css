@@ -28,3 +28,5 @@
 @import './termos/termos.css';
 /* Bicicletas */
 @import './bicicletas/bicicletas.css';
+@import './bicicleta/bicicleta.css';
+@import './bicicleta/seguro.css';
