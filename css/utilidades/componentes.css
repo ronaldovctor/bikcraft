@@ -24,6 +24,7 @@
 
 .btn:hover {
 	background: linear-gradient(#ffb60d, #e59317);
+	cursor: pointer;
 }
 
 .btn.secundario:hover {
@@ -87,6 +88,7 @@
 
 .titulo {
 	margin-bottom: 4px;
+	background: url('../../img/dec/top-right.svg') no-repeat top right 20px;
 }
 
 @media (max-width: 800px) {

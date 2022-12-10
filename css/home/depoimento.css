@@ -14,7 +14,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	background-color: var(--c-p1);
+	background: var(--c-p1) url('../../img/dec/bottom-right.svg') no-repeat bottom 40px
+		right 40px;
 	padding: 40px 40px 80px 80px;
 	align-self: end;
 	overflow: hidden;
@@ -43,6 +44,12 @@
 	color: var(--c-p2);
 	position: absolute;
 	bottom: -60px;
+}
+
+@media (min-wifth: 1200px) {
+	.depoimento img {
+		max-height: 520px;
+	}
 }
 
 @media (max-width: 800px) {
