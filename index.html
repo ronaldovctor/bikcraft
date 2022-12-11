@@ -17,6 +17,9 @@
 			href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Nunito:wght@600;700&family=Poppins:wght@400;600&family=Roboto:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script>
+			document.documentElement.classList.add('js')
+		</script>
 	</head>
 	<body id="home">
 		<header class="header-bg">
@@ -40,7 +43,7 @@
 			</div>
 		</header>
 		<main class="introducao-bg">
-			<div class="introducao container">
+			<div class="introducao container fadeInLeft" data-anime="150">
 				<div class="introducao-conteudo">
 					<h1 class="font-1-xxl dot">Bicicletas feitas sob medida</h1>
 					<p class="font-2-l">
@@ -329,5 +332,7 @@
 				<p class="footer-copy font-2-m c-6">Bikcraft © Alguns direitos reservados.</p>
 			</div>
 		</footer>
+		<script src="./js/plugins/simple-anime.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
