@@ -66,7 +66,7 @@ window.addEventListener('load', () => {
         const img = event.currentTarget;
         const media = window.matchMedia('(min-width: 900px)').matches;
         if (media && galeriaContainer) {
-            galeriaContainer.prepend(String(img));
+            galeriaContainer.prepend(img);
         }
     }
     galeria.forEach((imgGaleria) => {
